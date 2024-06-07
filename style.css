@@ -13,9 +13,7 @@
 	
 }
 
-
-/* INDEX */
 .show-index{
-	height:50vh;
+	min-height:50vh;
 	background:#ccc4;
 }
