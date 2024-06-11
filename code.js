@@ -1,7 +1,7 @@
 jQuery(document).ready(function($) {
     $('#proveedor_productos').select2();
 
-    $('#proveedor_productos').change(function() {
+    $('#proveedor_productos').on('change', function() {
         var listaProductos = $('#lista-productos');
         listaProductos.empty();
 
